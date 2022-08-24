@@ -3,6 +3,7 @@
 #include <string.h>
 #include <conio.h>
 int main(){
+    //Este código é exclusivamente para zerar os arquivos(.bin)
     FILE *arq;
 
     arq = fopen("221132154243.bin", "w");
